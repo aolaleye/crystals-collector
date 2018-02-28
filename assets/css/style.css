@@ -12,6 +12,7 @@ body {
 
 .jumbotron h1 {
     font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
 }
 
 .jumbotron {
@@ -31,11 +32,10 @@ body {
 }
 
 img {
-    width: 65px;
+    width: 100px;
 }
 
 .col {
-    border: 1px none white;
     background-color:#ffffff2b;
     color: black;
     margin: 5px 10px;
@@ -55,12 +55,12 @@ img {
     }
 
     img {
-        width: 200px;
+        width: 210px;
     }
 
     .col {
-        min-height: 100px;
-        border: 3px double white;
-        margin: 5px 10px;
+        min-height: 110px;
+        border-radius: 3px;
+        margin: 10px;
     }
 } 

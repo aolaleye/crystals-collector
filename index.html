@@ -11,17 +11,17 @@
 <body class="pb-4">
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-        <h1 class="display-4 mb-4">Crystals Collector</h1>
-        <a class="btn btn-lg instructions-button" href="#" role="button">Instructions</a>
-        <section class="instuctions hidden">
-            <p class="lead">You will be given a random number at the start of the game.</p>
-            <p class="lead">You will then see four crystals. The points value of each crystal is hidden until it is clicked on.</p>
-            <p class="lead">By clicking on a crystal, you will add that crystal's amount of points to your total score.</p>
-            <p class="lead">The goal is to match your total score to the random number provided at the beginning of the game.</p>
-            <p class="lead">If your total score matches the random number, you win!</p>
-            <p class="lead">If your total score goes above the random number, you lose.</p>
-            <p class="lead">Each time a new game starts, the game will generate a new random number and the points value of each crystal will change.</p>
-            <a class="btn btn-lg collapse-button" href="#" role="button">Collapse</a>
+        <h1 class="display-4 mb-5">Crystals Collector</h1>
+        <button type="button" class="btn btn-lg instructions-button">Instructions</button>
+        <section class="instructions hidden">
+            <p>You are given a random number at the start of the game.</p>
+            <p>There are five crystals at the bottom of the page. The points value of each crystal is hidden.</p>
+            <p>By clicking on a crystal, you will add that crystal's amount of points to your total score.</p>
+            <p>The goal is to match your total score to the random number.</p>
+            <p>If your total score matches the random number, you win!</p>
+            <p>If your total score goes above the random number, you lose.</p>
+            <p>Each time a new game starts, the game will generate a new random number and the points value of each crystal will change.</p>
+            <button type="button" class="btn btn-lg collapse-button mt-4">Collapse</button>
         </section>
         </div>
     </div>
@@ -32,30 +32,30 @@
         <div class="row text-center">
             <div class="col">
                 <h5>Wins:</h5> 
-                <p class="wins"></p>
+                <h1 class="wins mt-3"></h1>
             </div>
             <div class="col">
                 <h5>Losses:</h5>
-                <p class="losses"></p>
+                <h1 class="losses mt-3"></h1>
             </div>
         </div>
         <div class="row text-center">
             <div class="col">
                 <h5>The Random Number is:</h5>
-                <p class="random-number"></p>
+                <h1 class="game-number mt-3"></h1>
             </div>
             <div class="col">
                 <h5>Your Total Score is:</h5>
-                <p class="total-score"></p>
+                <h1 class="total-score mt-3"></h1>
             </div>
         </div>
     
         <div class="crystals text-center mt-5">
-            <img class="crystal-1" src="assets/images/crystal1.gif" alt="yellow crystal">
-            <img class="crystal-2" src="assets/images/crystal2.gif" alt="yellow crystal">
-            <img class="crystal-3" src="assets/images/crystal3.gif" alt="yellow crystal">
-            <img class="crystal-4" src="assets/images/crystal4.gif" alt="yellow crystal">
-            <img class="crystal-5" src="assets/images/crystal5.gif" alt="yellow crystal">
+            <img id="1" class="crystal-1" src="assets/images/crystal1.gif" alt="yellow crystal">
+            <img id="2" class="crystal-2" src="assets/images/crystal2.gif" alt="yellow crystal">
+            <img id="3" class="crystal-3" src="assets/images/crystal3.gif" alt="yellow crystal">
+            <img id="4" class="crystal-4" src="assets/images/crystal4.gif" alt="yellow crystal">
+            <img id="5" class="crystal-5" src="assets/images/crystal5.gif" alt="yellow crystal">
         </div>
 
     </div>
