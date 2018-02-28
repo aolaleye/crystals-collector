@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crystals Collector</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Allerta+Stencil" rel="stylesheet">
+</head>
+
+<body class="pb-4">
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+        <h1 class="display-4 mb-4">Crystals Collector</h1>
+        <a class="btn btn-lg instructions-button" href="#" role="button">Instructions</a>
+        <section class="instuctions hidden">
+            <p class="lead">You will be given a random number at the start of the game.</p>
+            <p class="lead">You will then see four crystals. The points value of each crystal is hidden until it is clicked on.</p>
+            <p class="lead">By clicking on a crystal, you will add that crystal's amount of points to your total score.</p>
+            <p class="lead">The goal is to match your total score to the random number provided at the beginning of the game.</p>
+            <p class="lead">If your total score matches the random number, you win!</p>
+            <p class="lead">If your total score goes above the random number, you lose.</p>
+            <p class="lead">Each time a new game starts, the game will generate a new random number and the points value of each crystal will change.</p>
+            <a class="btn btn-lg collapse-button" href="#" role="button">Collapse</a>
+        </section>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <h3 class="you-win hidden text-center">You Win!</h3>
+        <h3 class="you-lost hidden text-center">You Lost!</h3>
+        
+        <div class="row text-center">
+            <div class="col">
+                <h5>Wins:</h5> 
+                <p class="wins"></p>
+            </div>
+            <div class="col">
+                <h5>Losses:</h5>
+                <p class="losses"></p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <h5>The Random Number is:</h5>
+                <p class="random-number"></p>
+            </div>
+            <div class="col">
+                <h5>Your Total Score is:</h5>
+                <p class="total-score"></p>
+            </div>
+        </div>
+    
+        <div class="crystals text-center mt-5">
+            <img class="crystal-1" src="assets/images/crystal1.gif" alt="yellow crystal">
+            <img class="crystal-2" src="assets/images/crystal2.gif" alt="yellow crystal">
+            <img class="crystal-3" src="assets/images/crystal3.gif" alt="yellow crystal">
+            <img class="crystal-4" src="assets/images/crystal4.gif" alt="yellow crystal">
+            <img class="crystal-5" src="assets/images/crystal5.gif" alt="yellow crystal">
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js" type="text/javascript" charset="utf-8"></script>    
+</body>
+</html>

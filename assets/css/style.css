@@ -1,0 +1,66 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #98bc8b;
+    font-family: 'Allerta Stencil', sans-serif;
+    border: 12px double white;
+}
+
+
+
+.jumbotron h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+    background-color:#f7f7f76b;
+}
+
+.collapse-button,
+.instructions-button {
+    color: #fff;
+    background-color: #367b1b;
+}
+
+.collapse-button:hover,
+.instructions-button:hover {
+    color: #fff;
+    background-color: #3a5231;
+}
+
+img {
+    width: 65px;
+}
+
+.col {
+    border: 1px none white;
+    background-color:#ffffff2b;
+    color: black;
+    margin: 5px 10px;
+    min-height: 80px;
+}
+
+/* --- media queries --- */
+
+/* tablets and bigger */
+@media only screen and (min-width: 760px) {
+
+    body {
+       border: 13px double white;
+    }
+    .crystals {
+        margin-top: 40px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .col {
+        min-height: 100px;
+        border: 3px double white;
+        margin: 5px 10px;
+    }
+} 
