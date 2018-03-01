@@ -51,12 +51,12 @@ $.each(crystals, function(i, val) {
         totalScore = totalScore + val;
         $(".total-score").text(totalScore);
         if (totalScore === gameNumber) {
-            $(".you-won").fadeIn("slow").fadeOut("slow");
+            $(".you-won").fadeIn(500).fadeOut(500);
             wins++;
             $(".wins").text(wins);
             resetGame();
         } else if (totalScore > gameNumber) {
-            $(".you-lost").fadeIn("slow").fadeOut("slow");
+            $(".you-lost").fadeIn(500).fadeOut(500);
             losses++;
             $(".losses").text(losses);
             resetGame();
