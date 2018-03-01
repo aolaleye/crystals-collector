@@ -5,7 +5,7 @@
 body {
     background-color: #98bc8b;
     font-family: 'Allerta Stencil', sans-serif;
-    border: 12px double white;
+    /* border: 12px double white; */
 }
 
 .jumbotron h1 {
@@ -14,7 +14,8 @@ body {
 }
 
 .jumbotron {
-    background-color:#f7f7f76b;
+    /* background-color:#f7f7f76b; */
+    background: linear-gradient(0deg, rgb(152, 188, 133), rgba(247, 247, 247, 0.87) 100%), #f7f7f76b url(../images/jewels.jpg);
 }
 
 .collapse-button,
@@ -54,9 +55,10 @@ img {
 /* tablets and bigger */
 @media only screen and (min-width: 760px) {
 
-    body {
+    /* body {
        border: 13px double white;
-    }
+    } */
+
     .crystals {
         margin-top: 40px;
     }
