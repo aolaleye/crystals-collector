@@ -5,7 +5,6 @@
 body {
     background-color: #98bc8b;
     font-family: 'Allerta Stencil', sans-serif;
-    /* border: 12px double white; */
 }
 
 .jumbotron h1 {
@@ -54,10 +53,6 @@ img {
 
 /* tablets and bigger */
 @media only screen and (min-width: 760px) {
-
-    /* body {
-       border: 13px double white;
-    } */
 
     .crystals {
         margin-top: 40px;
