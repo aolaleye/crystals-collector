@@ -33,6 +33,7 @@ body {
 
 img {
     width: 100px;
+    cursor:pointer;
 }
 
 .col {
