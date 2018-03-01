@@ -14,7 +14,7 @@ body {
 
 .jumbotron {
     /* background-color:#f7f7f76b; */
-    background: linear-gradient(0deg, rgb(152, 188, 133), rgba(247, 247, 247, 0.87) 100%), #f7f7f76b url(../images/jewels.jpg);
+    background: linear-gradient(0deg, rgb(152, 188, 133), rgba(247, 247, 247, 0.9) 100%), #f7f7f76b url(../images/jewels.jpg);
 }
 
 .collapse-button,
