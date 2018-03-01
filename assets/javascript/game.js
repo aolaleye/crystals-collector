@@ -21,6 +21,7 @@ function resetGame() {
         "4": randomNumber(1,12),
         "5": randomNumber(1,12)
     }
+    console.log(crystals);
     gameNumber = randomNumber(19,120);
     $(".game-number").text(gameNumber);
     totalScore = 0;
@@ -47,6 +48,7 @@ $(".losses").text(losses);
 //Loops through crystals object. Upon the click of a crystal image, when i equals the html id value of the image, add the value of i to totalScore
 $.each(crystals, function(i, val) {
     $("#" + i + "").on("click", function() {
+        val = crystals[i];
         totalScore = totalScore + val;
         $(".total-score").text(totalScore);
         if (totalScore === gameNumber) {
