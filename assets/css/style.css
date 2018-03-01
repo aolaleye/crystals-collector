@@ -5,6 +5,7 @@
 body {
     background-color: #98bc8b;
     font-family: 'Allerta Stencil', sans-serif;
+    /* border: 12px double white; */
 }
 
 .jumbotron h1 {
@@ -37,8 +38,7 @@ img {
 .col {
     background-color:#ffffff2b;
     color: black;
-    margin: 5px 10px;
-    min-height: 80px;
+    margin: 5px;
 }
 
 .you-won {
@@ -53,6 +53,14 @@ img {
 
 /* tablets and bigger */
 @media only screen and (min-width: 760px) {
+
+    /* body {
+       border: 13px double white;
+    }
+
+    .jumbotron {
+        background: linear-gradient(0deg, rgb(152, 188, 133), rgba(247, 247, 247, 0.9));
+    } */
 
     .crystals {
         margin-top: 40px;
