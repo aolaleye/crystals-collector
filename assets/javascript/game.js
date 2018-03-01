@@ -21,7 +21,6 @@ function resetGame() {
         "4": randomNumber(1,12),
         "5": randomNumber(1,12)
     }
-    console.log(crystals);
     gameNumber = randomNumber(19,120);
     $(".game-number").text(gameNumber);
     totalScore = 0;
