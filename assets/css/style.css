@@ -8,8 +8,6 @@ body {
     border: 12px double white;
 }
 
-
-
 .jumbotron h1 {
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 5px;
@@ -41,6 +39,14 @@ img {
     color: black;
     margin: 5px 10px;
     min-height: 80px;
+}
+
+.you-won {
+    color: #d63636;
+}
+
+.you-lost {
+    color: #29316d;
 }
 
 /* --- media queries --- */
