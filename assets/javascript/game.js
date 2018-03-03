@@ -15,11 +15,11 @@ var losses = 0;
 //resets game by assigning new random numbers to the gameNumber and each crystal and resetss totalScore to 0
 function resetGame() {
     crystals = {
-        "1": randomNumber(1,12),
-        "2": randomNumber(1,12),
-        "3": randomNumber(1,12),
-        "4": randomNumber(1,12),
-        "5": randomNumber(1,12)
+        "1": randomNumber(1,10),
+        "2": randomNumber(1,10),
+        "3": randomNumber(1,10),
+        "4": randomNumber(1,10),
+        "5": randomNumber(1,10)
     }
     gameNumber = randomNumber(19,120);
     $(".game-number").text(gameNumber);
