@@ -1,4 +1,5 @@
 # Crystals Collector
+
 __Game Instructions__
 * The player is given a random number at the start of the game.
 * There are five crystals at the bottom of the page. Each crystal has a hidden points value between 1 and 10.
@@ -7,3 +8,6 @@ __Game Instructions__
 * If the total score matches the random number, the player wins.
 * If the total score goes above the random number, the player loses.
 * Each time a new game starts, the game automatically generates a new random number and the points value of each crystal changes.
+
+#### > __Try it Out:__
+[![Crystals Collector](assets/images/crystalscollector1.png)](https://aolaleye.github.io/crystals-collector/)
