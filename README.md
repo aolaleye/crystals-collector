@@ -9,5 +9,7 @@ __Game Instructions:__
 * If the total score goes above the random number, the player loses.
 * Each time a new game starts, the game automatically generates a new random number and the points value of each crystal changes.
 
+#
+
 #### > __Click Below to Try it Out:__
 [![Crystals Collector](assets/images/crystalscollector1.png)](https://aolaleye.github.io/crystals-collector/)
